@@ -10,9 +10,9 @@ Fatura Tutarının hesaplanması ve sayfanın isteklere yanıt verip vermediğin
 * Selenium Web driver ve ChromeWebDriver kütüphaneleri kullanılmıştır.
 * Assertion için Xunit kütüphanesi kullanılmaktadır.
 * Geliştirilmiş Class yapısıyla kurulmuştur.
-* Bdd diliyle ilerleyen sürümlerde Clean Code mimarisi kurulacaktır.
-* İlerleyen sürümlerde, Unit, Integration, API testi gibi katmanlarla proje geliştirilecektir.
-* İlerleyen süreçlerde Docker, Kubernetes teknolojileri kullanılarak birbirimden bağımsız işletim sistemleri ve tarayıcıları üzerinde CrossBrowser Testler yapılacaktır.
+* İlerleyen versiyonlarda specflow(bdd) Clean Code mimarisi kurulacaktır.
+* İlerleyen sürümlerde, Unit, Integration, API testi gibi çoklu katmanlı mimari yapısı entegre edilecektir.
+* İlerleyen süreçlerde Docker, Kubernetes teknolojileri kullanılarak birbirimden bağımsız Cross Browser ve OS testleri koşacaktır.
 * Veritabanı Mimarisi eklenecektir.
 
 ## Task İsterleri(API)
