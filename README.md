@@ -1,5 +1,5 @@
 # RimuutWebUI and APITest
-Ödeme sayfasındaki Fatura Tutarının son kullanıcı tarafından yapılan aksiyonların otomatize edilmesi 
+Ödeme sayfasındaki Fatura Tutarının son kullanıcı tarafından yapılan aksiyonların otomatize edilmesi < br >
 ve sayfanın isteklere yanıt verip vermediğini kontrol eden bir projedir  
 ## Proje Özellikleri
 * Xunit Mimarisi kullanılmıştır.
