@@ -1,6 +1,6 @@
 # RimuutWebUI and APITest
-Ödeme sayfasındaki Calculate oranının son kullanıcı tarafından yapılan aksiyonların otomatize edilmesi ve sayfanın isteklere yanıt verip vermediğini kontrol eden bir projedir  <br /><br />
-
+Ödeme sayfasındaki Calculate oranının son kullanıcı tarafından yapılan aksiyonların otomatize edilmesi ve sayfanın isteklere yanıt verip vermediğini kontrol eden bir projedir  
+<br /><br />
 ## Proje Özellikleri
 * Xunit Mimarisi kullanılmıştır.
 * C# 6.0.net core dilinde yazılmıştır
