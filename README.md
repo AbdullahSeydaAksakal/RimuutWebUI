@@ -20,13 +20,6 @@
 1. Url: https://rimuut.com/pricing - Urline gider get metoduyla çağırır gelip gelmediğini assert ile kontrol eder hata varsa bildirir yoksa pass der
 
 ## Task İsterleri(UI)
-1.Sayfayı açar
-2.Calculete oranını hesaplamak için fatura oranını "1000" girer
-3.Ödeme yöntemini "virtual iban" olarak değiştirir.
-4.1000 değişkenini to stringe çevirir ve son kullanıcının alacağı 951,00(Şuanki kur) karşılaştırır. Doğru ise pass eder yanlış ise hatayı söyler.
-
-
-## Task İsterleri(UI)
 1. Sayfayı açar
 2. Calculete oranını hesaplamak için fatura oranını "1000" girer
 3. Ödeme yöntemini "virtual iban" olarak değiştirir.
