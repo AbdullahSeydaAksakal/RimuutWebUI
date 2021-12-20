@@ -26,7 +26,7 @@
 4.1000 değişkenini to stringe çevirir ve son kullanıcının alacağı 951,00(Şuanki kur) karşılaştırır. Doğru ise pass eder yanlış ise hatayı söyler.
 
 
-## Task İsterleri
+## Task İsterleri(UI)
 1. Sayfayı açar
 2. Calculete oranını hesaplamak için fatura oranını "1000" girer
 3. Ödeme yöntemini "virtual iban" olarak değiştirir.
