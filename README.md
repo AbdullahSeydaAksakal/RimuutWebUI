@@ -6,7 +6,7 @@ Fatura Tutarının hesaplanması ve sayfanın isteklere yanıt verip vermediğin
 * Endpoint kontrolü için RestSharp kütüphanesi entegre edilmiştir.
 * Regrasyon web otomasyonu için Selenium Web Driver, ChromeWebDriver Kütüphaneleri kullanılmıştır.
 * Chrome tarayıcı üzerinden UI Smoke test ve API kontrolü gerçekleşmektedir.
-* Url: https://rimuut.com/pricing
+* Url: "https://rimuut.com/pricing"
 * Selenium Web driver ve ChromeWebDriver kütüphaneleri kullanılmıştır.
 * Assertion için Xunit kütüphanesi kullanılmaktadır.
 * Geliştirilmiş Class yapısıyla kurulmuştur.
