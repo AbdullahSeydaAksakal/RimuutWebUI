@@ -3,11 +3,11 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System.Threading;
 
-namespace Rimuut
+namespace RimuutWebUI
 {
 
 
-    public class ApiTest
+    public class WebUITest
     {
         #region Defination
         public IWebDriver? Chromedriver;
@@ -41,7 +41,6 @@ namespace Rimuut
             Chromedriver.FindElement(By.ClassName("input-wrapper")).Click();
             Chromedriver.FindElement(By.TagName("div")).Click();
             expectedresult = Chromedriver.FindElement(By.XPath("/html/body/div[1]/div/div/div/header[2]/div/div/div/div[2]/div[2]/fieldset/div/input")).GetAttribute("value").ToString();
-          //  expectedresult = Chromedriver.FindElement(By.ClassName("input-text")).GetAttribute("value").ToString();
             Assert.Equal("951,00", expectedresult); 
             Dispose();
 
@@ -50,12 +49,3 @@ namespace Rimuut
 
     }
 }
-
-
-
-
-//var client = new RestClient("http://www.youtube.com/");
-//var request = new RestRequest(Method.GET);
-//IRestResponse response = client.Execute(request);
-//string status = response.StatusCode.ToString();
-//Assert.Equal("OK", status);
