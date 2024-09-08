@@ -1,26 +1,22 @@
 # RimuutWebUI and APITest
-Fatura Tutarının hesaplanması ve sayfanın isteklere yanıt verip vermediğini kontrol eden bir projedir. 
+It is a project that calculates the Invoice Amount and checks whether the page responds to requests. 
 ## Proje Özellikleri
-* Xunit Mimarisi kullanılmıştır.
-* C# 6.0.net core dilinde yazılmıştır.
-* Endpoint kontrolü için RestSharp kütüphanesi entegre edilmiştir.
-* Regrasyon web otomasyonu için Selenium Web Driver, ChromeWebDriver Kütüphaneleri kullanılmıştır.
-* Chrome tarayıcı üzerinden UI Smoke test ve API kontrolü gerçekleşmektedir.
+* Xunit Architecture is used.
+* Written in C# 6.0.net core language.
+* RestSharp library is integrated for endpoint control.
+* Selenium Web Driver, ChromeWebDriver Libraries are used for regression web automation.
+* UI Smoke test and API control are performed via Chrome browser.
 * Url: "https://rimuut.com/pricing"
-* Selenium Web driver ve ChromeWebDriver kütüphaneleri kullanılmıştır.
-* Assertion için Xunit kütüphanesi kullanılmaktadır.
-* Geliştirilmiş Class yapısıyla kurulmuştur.
-* İlerleyen versiyonlarda specflow(bdd) Clean Code mimarisi kurulacaktır.
-* İlerleyen sürümlerde, Unit, Integration, API testi gibi çoklu katmanlı mimari yapısı entegre edilecektir.
-* İlerleyen süreçlerde Docker, Kubernetes teknolojileri kullanılarak birbirimden bağımsız Cross Browser ve OS testleri koşacaktır.
-* Veritabanı Mimarisi eklenecektir.
+* Selenium Web driver and ChromeWebDriver libraries are used.
+* Xunit library is used for Assertion.
+* It is established with an improved Class structure.
 
-## Task İsterleri(API)
+## Task Request(API)
 1. Url: "https://rimuut.com/pricing" 
-2. Urline gider get metoduyla çağırır gelip gelmediğini assert ile kontrol eder hata varsa bildirir yoksa pass der.
+2. It goes to the URL, calls the get method, checks with assert whether it has arrived or not, reports any errors, otherwise it says pass.
 
-## Task İsterleri(UI)
-1. Sayfayı açar. - "https://rimuut.com/pricing"
-2. Calculete oranını hesaplamak için fatura oranını "1000" girer.
-3. Ödeme yöntemini "virtual iban" olarak değiştirir.
-4. 1000 değişkenini to stringe çevirir ve son kullanıcının alacağı 951,00(Şuanki kur) karşılaştırır. Doğru ise pass eder yanlış ise hatayı söyler.
+## Task Request(UI)
+1. Opens the page. - "https://rimuut.com/pricing"
+2. Enters the billing rate as "1000" to calculate the rate.
+3. Changes the payment method to "virtual iban".
+4. Converts the variable 1000 to string and compares it to the 951.00 (Current rate) that the end user will receive. If it is correct, it passes, if it is incorrect, it reports the error.
